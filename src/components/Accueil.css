@@ -1,0 +1,43 @@
+tr{
+    height: 50px;
+}
+th,td{
+    width: 180px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:visible;
+    /* background-color: #0c4a91; */
+
+    display: flex;
+            justify-content: space-between;
+  }
+  
+  li {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  li a {
+    float: right;
+    display: block;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    word-spacing: 5%;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #5499e7;
+  }
+  ion-menu {
+    display: block;
+  }
